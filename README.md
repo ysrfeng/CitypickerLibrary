@@ -38,7 +38,7 @@ Step 4.还需要添加`CityPickerActivity`
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan"/>
 ```
-###使用
+### 使用
 ```Java
                 ARouter.getInstance().build("/lib/CityPickerActivity").navigation(MainActivity.this, REQUEST_CODE_PICK_CITY);
 //                startActivityForResult(new Intent(MainActivity.this, CityPickerActivity.class),
@@ -58,7 +58,7 @@ Step 4.还需要添加`CityPickerActivity`
 ```
     
 ```java
-//定位
+### 注意混淆
 -keep class com.amap.api.location.**{*;}
 -keep class com.amap.api.fence.**{*;}
 -keep class com.autonavi.aps.amapapi.model.**{*;}
