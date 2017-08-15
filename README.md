@@ -56,9 +56,9 @@ Step 4.还需要添加`CityPickerActivity`
         }
     }
 ```
-    
-```java
+
 ### 注意混淆
+```java
 -keep class com.amap.api.location.**{*;}
 -keep class com.amap.api.fence.**{*;}
 -keep class com.autonavi.aps.amapapi.model.**{*;}
