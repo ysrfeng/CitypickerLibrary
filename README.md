@@ -2,4 +2,4 @@
 城市列表library
 # 展示
 
-![image](http://github.com/ysrfeng/CitypickerLibrary/doc/Screenrecorder01.gif)
+![image](https://github.com/ysrfeng/CitypickerLibrary/blob/master/doc/Screenrecorder01.gif)
