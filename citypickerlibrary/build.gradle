@@ -33,7 +33,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
-    compile files('libs/AMap_Location_V3.2.0_20161205.jar')
     compile 'com.alibaba:arouter-api:1.2.1.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.2.1'
+    compile files('lib/AMap_Location_V3.5.0_20170731.jar')
 }
